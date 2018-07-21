@@ -2,7 +2,7 @@
 
 #top 20 ip count
 
- sudo cat /home/iampk/Desktop/web_logs.txt | awk  '{print $2}'|sort | uniq -c  | sort -nr | head -20
+ sudo cat /home/iampk/Desktop/web_logs.txt | awk  '{print $2}'| sort | uniq -c  | sort -nr | head -20
 
 #no of occurrences of a word in a file
 
